@@ -2,7 +2,6 @@ body {
     width: 1440px;
     min-width: 375px;
     height: 100vh;
-    border: 1px solid blue;
     background-color: hsl(32, 50%, 90%);
     display: flex;
 }
@@ -14,8 +13,6 @@ body {
     width: 600px;
     margin: auto;
     display: flex;
-    border: 1px solid red;
-    border-radius: 10px;
 }
 
 
@@ -24,14 +21,14 @@ body {
 .boxpicture {
     height: inherit;
     width: 300px;
-    border: 1px solid;
     text-align: center;
 }
 
 img {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
 }
 
 
@@ -40,88 +37,78 @@ img {
 .boxcontent {
     height: inherit; /*remember take of the value of 30px of height*/
     width: 300px;
-    background-color: hsl(0, 0%, 100);
-    border: 1px solid green;
+    background-color: hsl(0, 0%, 100%);
     box-sizing: border-box;
-    padding: 20px 30px; 
+    padding: 15px 30px; 
+    border-radius: 0 15px 15px 0;
 }
 
 .perfume {
-    border: 1px solid;
-    width: 100px;
-    font: 300 14px 'Montserrat', 'Nixie One', serif;
+    width: 150px;
+    font: 300 11px 'Montserrat', 'Nixie One', serif;
     color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    margin-bottom: -10px;
 }
 
 h1 {
-    border: 1px solid;
-    width: 190px;
-    font: 700 30px/28px 'Fraunces';
+    width: 170px;
+    font: 700 25px/28px 'Fraunces';
     color: hsl(212, 21%, 14%);
+    margin-bottom: -5px;
+
 }
 
 .description {
-    border: 1px solid;
-    font: 500 14px/20px 'Montserrat', 'Nixie One', serif;
+    width: 190px;
+    font: 500 11px/20px 'Montserrat', 'Nixie One', serif;
     color:hsl(228, 12%, 48%);
+    margin-bottom: 10px;
     
 }
 
+/* Box with price and full value */
 .price {
-    border: 1px solid;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .discount {
-    border: 1px solid;
+    font: 700 25px 'Fraunces';
+    color: hsl(158, 36%, 37%);
 }
 
 .full {
-    border: 1px solid;
+    font: 300 11px 'Montserrat', 'Nixie One', serif;
+    color:hsl(228, 12%, 48%);
+    text-decoration:line-through;
 }
 
+
+/* Button cart */
 button {
-    border: 1px solid;
+    border: none;
+    border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: hsl(158, 36%, 37%);
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
-.button > img {
-    border: 1px solid;
+button:hover {
+    background-color: hsl(159, 59%, 16%);
 }
 
 button > p {
-    border: 1px solid;
+    color: white;
+    font: 500 14px 'Montserrat', 'Nixie One', serif;;
 }
-
-/* ## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(32, 50%, 90%)
-
-### Neutral
-
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
-
-### Font
-
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
-
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700 */
