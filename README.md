@@ -32,7 +32,7 @@ The users should be able to:
 
 ### Links
 
-- https://vercel.com/helcioanicio/sales-card/B3oundRxJJDjzk6mNgQg7GgBe5En
+- https://sales-card-pi.vercel.app/
 
 
 ## My process
