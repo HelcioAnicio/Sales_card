@@ -43,17 +43,31 @@ The users should be able to:
 - CSS custom properties
 - Flexbox
 - Responsiveness
-- Pseudo-elements
+- Pseudo-classes
 
 ### What I learned
 
-This project was 
+This project was my first time that i use a pseudo-element:
+
+```CSS
+button:hover {
+    background-color: hsl(159, 59%, 16%);
+}
+```
+
+### Continued development
+
+In the next projects i'll dedicate my efforts to learn and practice more properties in CSS and HTML, like more pseudo-elements and media query and make my site more accessible.
+
+### Useful resources
+
+This resource helped me a lot to understand how to do what I wanted.
+https://www.w3schools.com/css/css_pseudo_classes.asp
+
+## Author
+
+- Linkedin - https://www.linkedin.com/in/helcio-anicio/ 
+- Vercel - https://vercel.com/helcioanicio
 
 
-
-here you will see an image during the project
-![image](https://user-images.githubusercontent.com/117602073/214888784-f6db2a94-2135-4ea2-a2db-ab954243d9e8.png)
-
-and here is a video showing the clickable button on the page.
-https://user-images.githubusercontent.com/117602073/214888116-b07e55b9-ad7b-4d78-a207-77aef9743020.mp4
-
+<!-- ## Acknowledgments -->
